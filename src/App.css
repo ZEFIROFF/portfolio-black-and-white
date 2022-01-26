@@ -1,0 +1,149 @@
+body {
+  background: #131313 !important;
+  font-family: "Monument Extended", sans-serif !important;
+}
+body ::selection {
+  background: #ffcc00;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: local("Monument Extended"), url(./font/MonumentExtended-Regular.otf) format("truetype");
+}
+.about-dev {
+  font-size: 65px;
+  line-height: 75px;
+}
+.about-dev h1 {
+  font-size: 85px;
+}
+
+.nav-foot a {
+  color: #131313;
+}
+
+.Works {
+  margin-top: 200px;
+}
+.Works h1 {
+  font-size: 85px;
+}
+
+.text-secondary {
+  line-height: 20px;
+}
+
+a {
+  color: #ffcc00;
+  transition: ease-in-out 0.3s;
+}
+a:hover {
+  color: rgba(255, 204, 0, 0.71);
+}
+
+.name h1 {
+  font-size: 280px;
+}
+
+#bearNft {
+  width: 300px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FAFAFA;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 0 #F0F0F0;
+}
+
+.name-fill {
+  color: white;
+}
+
+.name-stroke {
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-name {
+  margin: 180px 0 250px 0 !important;
+}
+
+.name-off {
+  font-size: 160px !important;
+}
+
+.spec {
+  font-size: 24px;
+}
+
+.nav-link span img {
+  width: 24px;
+}
+
+.nav-foot, .toTop {
+  font-size: 24px;
+}
+
+.toTop {
+  position: relative;
+}
+
+.spec a {
+  color: white;
+}
+.spec a:hover {
+  color: #ffcc00 !important;
+}
+
+.img-toTop .text-toTop {
+  position: absolute;
+  top: 45%;
+  right: 38%;
+  z-index: 2;
+}
+.img-toTop img {
+  width: 250px;
+  z-index: 1;
+  -webkit-animation: spin 9s linear infinite;
+  -moz-animation: spin 9s linear infinite;
+  animation: spin 9s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.work-list img {
+  -webkit-filter: grayscale(0.95);
+  filter: grayscale(0.85);
+  width: 600px;
+}
+
+/*# sourceMappingURL=App.css.map */
