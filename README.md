@@ -3,4 +3,4 @@ source:
   - https://greensock.com/gsap/  
   - https://reactjs.org
 view:
-  - portfolio-black-and-white.vercel.app
+  - https://portfolio-black-and-white.vercel.app
